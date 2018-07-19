@@ -1,5 +1,5 @@
 # free-butoh-teacher
-Artificial Butoh Teacher and Butoh Score Generator System made with RiTa toolkit for computional literature
+Artificial Butoh Teacher and Butoh Score Generator System made with RiTa toolkit for computational literature
 
 You will need a Google Cloud account: https://cloud.google.com/, create a project and download your credentials file
 
