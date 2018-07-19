@@ -1,0 +1,213 @@
+---
+# score.yaml example
+#
+# enjoy, copy, remix, share... (and attribute!)
+# PayPal: freebutoh@gmail.com
+
+Name: a revolt of the body!
+#
+# 
+<start>:
+#
+  - remember your dreams [0.01]
+  - <RELAX> [0.5]
+  - relax your <bodypart>
+    #- move your <bodypart>
+    #- stop [0.8]
+    #- rotate your <bodypart>
+    #- <move> your <bodypart>
+    #- <shiva> your <bodypart>
+    #- rotate, your <bodypart>, in the <dimension> <3dwait>
+    #- <move>, your <bodypart>, in the <dimension> <3dwait> [0.1]
+    #- <shiva>, your <bodypart>, in the <dimension> <3dwait>
+# 
+<shiva>:
+# 1. basic basic
+  - <locate>
+# 2. basic actions of life (Lee's amoeba, Hubbard's R/W, Veda's)
+  - <expand>
+  - <shrink>
+# 3. basic cycle (Yo Ha Kue, Veda's)
+  - <start>
+  - <change>
+  - <stop>
+# 4. basic evolution (My Open Source Motto)
+  - <enjoy>
+  - <copy>
+  - <remix>
+  - <share>
+# 5. generative trance (Stephen Gilligan)
+  - <relax>
+  - <focus>
+  - <resonate>
+  - <open>
+  - <ground>
+# basic motions
+<move>:
+  - rotate
+  - wave
+  - vibrate
+  - shock
+  - move
+  - randomize
+  - collapse
+  - sway
+# expansions of basic shiva concepts
+<locate>:
+  - locate
+  - find
+  - position
+<expand>:
+  - expand
+  - stretch
+  - reach
+<shrink>:
+  - shrink
+  - contract
+  - hide
+<start>:
+  - start
+  - move
+  - begin with
+<change>:
+  - change
+  - re-adjust
+  - <remix>
+<stop>:
+  - stop
+  - hold
+  - freeze
+<enjoy>:
+  - enjoy
+  - be
+  - <resonate>
+<copy>:
+  - copy
+  - duplicate
+  - give birth to [.01]
+<remix>:
+  - remix
+  - mutate
+  - <change>
+<share>:
+  - share
+  - show
+  - give
+<relax>:
+  - relax
+  - slow down
+  - let go of
+<focus>:
+  - notice
+  - feel
+  - focus on
+  - sense
+<resonate>:
+  - harmonize
+  - resonate
+  - adjust
+  - intergrate
+<open>:
+  - open
+  - free
+  - expose
+<ground>:
+  - ground
+  - connect with
+  - prime
+#
+#
+<bodypart>:
+  - body
+  - <lr> foot
+  - feet
+  - toes
+  - <lr> foot sole
+  - foot soles
+  - <lr> ankel
+  - ankels
+  - <lr> heel
+  - heels
+  - <lr> knee
+  - knees
+  - <lr> knee
+  - <lr> <ul> leg
+  - <ul> legs
+  - legs
+  - <lr> hip
+  - hips
+  - <lr> nippel
+  - nippels
+  - imaginary tail
+  - imaginary soul [.1]
+  - tailbone [2]
+  - lower spine [1.5]
+  - middle spine
+  - spine [2]
+  - lower back
+  - middle back
+  - upper back
+  - <lr> shoulderblade
+  - shoulderblades
+  - <lr> shoulder
+  - shoulders
+  - neck
+  - <lr> <ul> arm
+  - <ul> arms
+  - arms
+  - <lr> hand
+  - hands
+  - fingers
+  - fingers of the <lr> hand
+  - elbows
+  - <lr> elbow
+  - face
+  - head
+  - nose
+  - <lr> ear
+  - ears
+  - upper jaw
+  - lower jaw
+  - eyes
+  - <lr> eye
+  - breast
+  - <lr> breast
+  - genitals
+  - anus
+  - torso
+  - belly
+  - hair
+  - tong
+  - mouth
+  - lips
+  - <ul> lip
+  - brain
+  - teeth
+  - breastbone
+<lr>: left | right
+<ul>: upper | lower
+<RELAX>:
+  - relax
+  - slow down
+  - just let it happen
+<RITUAL>: - # example how to write a sequence
+  ok, let's  <break time="2s"/>
+  find a place to be still <break time="5s"/>
+  take a deep breath... <break time="2s"/>
+  and hold! <break time="3s"/>
+  <exhale>
+<exhale>:
+  - exhale
+  - breathe out
+  - let go
+  - relax
+<dimension>: # japanese "dimensions", actually they are planes
+  - water dimension
+  - arrow dimension
+  - door dimension
+<3dwait>: <break time="6500ms"/> <otherway> <break time="7000ms"/> relax
+<otherway>:
+  - the other direction
+  - the other way around
+  - change direction
+  - change the direction
