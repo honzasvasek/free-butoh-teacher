@@ -13,6 +13,6 @@ The good thing about a teacher is that the teacher pushes you in directions that
 
 Be careful. This has been designed to be hypnotic. Only listen at a safe place. Google Milton Erickson, David Snyder before use
 
-score.yaml is the score I use at this moment for my own research. It is a body-only score. Maybe you could call it context-free butoh. I use it as one layer, sometimes with music, sometimes with any activity. It makes me move I have never moved before - "relax your left nippel" - see. Artificial Teachers and body intelligence. Sensors in, Voice out...
+score.yaml is the score I use at this moment for my own research. It is a body-only score. Maybe you could call it context-free butoh. I use it as one layer, sometimes with music, sometimes with any activity. It makes me move in ways I have never moved before - ;) - see. Artificial Teachers and body intelligence. Sensors in, Voice out...
 
 enjoy, copy, remix, share (atribute)
