@@ -9,17 +9,17 @@ Name: a revolt of the body!
 # 
 <start>:
 #
-  - remember your dreams [0.01]
+  - <dream>
   - <RELAX> [0.5]
   - relax your <bodypart>
-    #- move your <bodypart>
-    #- stop [0.8]
-    #- rotate your <bodypart>
-    #- <move> your <bodypart>
-    #- <shiva> your <bodypart>
-    #- rotate, your <bodypart>, in the <dimension> <3dwait>
-    #- <move>, your <bodypart>, in the <dimension> <3dwait> [0.1]
-    #- <shiva>, your <bodypart>, in the <dimension> <3dwait>
+  - move your <bodypart>
+  - stop
+  - rotate your <bodypart>
+  - <move> your <bodypart>
+  - <shiva> your <bodypart>
+  - rotate your <bodypart> in the <dimension> <3dwait>
+  - <move> your <bodypart> in the <dimension> <3dwait> [0.1]
+    #- <shiva> your <bodypart> in the <dimension>
 # 
 <shiva>:
 # 1. basic basic
@@ -76,7 +76,7 @@ Name: a revolt of the body!
 <stop>:
   - stop
   - hold
-  - freeze
+  - freeze [0.4]
 <enjoy>:
   - enjoy
   - be
@@ -96,11 +96,11 @@ Name: a revolt of the body!
 <relax>:
   - relax
   - slow down
-  - let go of
+  - let go
 <focus>:
   - notice
   - feel
-  - focus on
+  - focus
   - sense
 <resonate>:
   - harmonize
@@ -113,7 +113,7 @@ Name: a revolt of the body!
   - expose
 <ground>:
   - ground
-  - connect with
+  - connect
   - prime
 #
 #
@@ -184,6 +184,7 @@ Name: a revolt of the body!
   - brain
   - teeth
   - breastbone
+  - sacrum
 <lr>: left | right
 <ul>: upper | lower
 <RELAX>:
@@ -211,3 +212,31 @@ Name: a revolt of the body!
   - the other way around
   - change direction
   - change the direction
+<dream>:
+- <our> <dreams>
+- <remember> <our> <dreams>
+- <our> <dreams> <remember> <our> <dreams>
+- let it happen
+<our>:
+- my
+- your
+- their
+- our
+<remember>:
+- remember
+- enjoy
+- copy
+- remix
+- share
+<dreams>:
+- dreams
+- energies
+- joys
+- <generative> <dreams>
+<generative>:
+- relaxed
+- focused
+- resonant
+- open
+- grounded
+

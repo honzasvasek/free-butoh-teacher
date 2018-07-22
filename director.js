@@ -19,12 +19,14 @@ const Speaker = require('speaker')
 const textToSpeech = require('@google-cloud/text-to-speech')
 var client = new textToSpeech.TextToSpeechClient()
 
-function command (label) {
-  var rg = RiTa.RiGrammar(YAML.load('score.yaml'))
+function command (score, label) {
+  var rg = RiTa.RiGrammar(YAML.load(score))
   var bufferStream = new stream.PassThrough();
 
   // TODO experiment to find trance inducive combinations
-  time=Math.floor(Math.random()*34567)+1234
+  //time=Math.floor(Math.random()*4567)+1234 // singing
+  time=Math.floor(Math.random()*34567)+1234 // active meditation
+  //time=Math.floor(Math.random()*90000)+1234 // relax...
   rate=Math.floor(Math.random()*34+56)
   pitch=Math.floor(Math.random()*3)+1
 
@@ -45,10 +47,10 @@ function command (label) {
     bufferStream.end(response.audioContent)
     .pipe(new lame.Decoder()).on('format', function (format) {
       this.pipe(new Speaker(format)).on('close', function (close) {
-        setTimeout(command, time, 'start')
+        setTimeout(command, time, score, label)
       })
     })
   })
 }
 
-command("<start>")
+command("score.yaml","<start>")
