@@ -1,3 +1,6 @@
+WARNING! This is outdated, it needs work to make it run.
+The development of this idea continues on https://JustMoveYourBody.nl
+
 # free-butoh-teacher
 Artificial Butoh Teacher and Butoh Score Generator System made with RiTa toolkit for computational literature
 
