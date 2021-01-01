@@ -1,5 +1,5 @@
 WARNING! This is outdated, it needs work to make it run.
-The development of this idea continues on https://JustMoveYourBody.nl
+The development of this idea continues on https://sites.google.com/view/bodywords/home
 
 # free-butoh-teacher
 Artificial Butoh Teacher and Butoh Score Generator System made with RiTa toolkit for computational literature
